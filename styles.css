@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(205, 156, 22);
+    overflow-x: hidden;
+}
+
+#header {
+    text-align:center;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: maroon;
+    
+    
+}
+
+#header-img {
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: -6px;
+    }
+
+h1 {
+    padding: 40px;
+}
+h2 {
+    font-size: 20px;
+    color: black;
+}
+
+p {
+    font-size: 15px;
+    color: black 
+}
+
+#nav-bar {
+    background-color: maroon;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+        
+}
+
+/* Links inside nav bar */
+#nav-bar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+#nav-bar a:hover {
+    color: white;
+
+}
+
+/* Main Content */
+.img-about {
+    transform: scale(.8);
+    margin: -10px;
+    max-width: 100%;
+    padding-left: 50px;
+}
+
+.about-us {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 20px;
+    
+}
+
+.requirements {
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    font-size: 15px;
+
+}
+
+h3, .video-content{
+    text-align: center;
+}
+/* Video for drag racing */
+
+#drag-race {
+   position: sticky;
+   padding-left: 200px;
+   top: 30px;
+}
+
+#pricing {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1px;
+    
+}
+#contact {
+    position:;
+    top: 100px;
+    left: 100px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 850px) {
+    body {
+        background-color:lightgoldenrodyellow;
+    }
+    #drag-race {
+        position: static;
+        left: 200px;
+    }
+}

@@ -7,49 +7,78 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header id="header">
-        <img id="header-img" src="">
+    <header id="header"> 
+        <h1>How Fayst? SOOO Fayst!</h1>
+        <h2>Drag Racing Rides</h2>
+            <p>Have you ever felt the urge to go <b>fast</b>? <br>Here at <b>How Fayst? SOOO Fayst!</b> we offer a chance of a lifetime! <br>Take a ride with our professional drivers in a built car that is bound to <b>BLOW</b> you away! </p>
+        <img id="header-img" src="images.png">
         <nav id="nav-bar">
-            <a class="nav-link" href=""></a>
-            <a class="nav-link" href=""></a>
-            <a class="nav-link" href=""></a>
+            <a class="nav-link" href="#about-us">About Us</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+            <a class="nav-link" href="#contact">Contact</a>
         </nav>
     </header>
     <main>
-        <section id="">
-            <iframe id="video" src="">
-               
-            </iframe>
+        <section id="about-us">
+            <img class="img-about" src="2020-Season-Kickoff.png">
+            <div class="about-us"><b>ABOUT US</b></div>
+                <div class="requirements">
+                    <ul>Must be 21 years or older</ul>
+                    <ul>Valid Drivers License</ul>
+                    <ul>Valid vehicle registration and insurance</ul>
+                    <ul>Read & sign consent waiver</ul>
+                </div>
         </section>
-        <section>
-            <form id="form">
+        <section id="video-content">
+            <h3>Rumble your engines & fire up your nerves!</h3>
+                <p class="video-content">Take a gander at what you could be a part of!</p>
+            <div id="drag-race">
+            <iframe id="video" width="500" height="300" src="https://www.youtube.com/embed/XEIpOWV2EUk" title="Built vs bought - drag racing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+        <section id="pricing">
+            <div class="product">
+                <div class="options">BRONZE</div>
+                <h2>$125</h2>
+                <ul>Includes 2 races with professional</ul>
+                <ul>Small merchandise gifts</ul>
+                <ul>5 cars to choose from</ul>
+                </div>
+            <div class="product">
+                <div class="options">SILVER</div>
+                    <h2>$200</h2>
+                        <ul>Includes 4 races with professional</ul>
+                        <ul>Merchandise attire & cap</ul>
+                        <ul>8 cars to choose from</ul>
+            </div>
+            <div class="product">
+                <div class="options">GOLD</div>
+                    <h2>$400</h2>
+                    <ul>Get behind the wheel & take off!</ul>
+                    <ul>Full How Fayst? SOOO Fayst Gear & attire</ul>
+                    <ul>12 built cars to choose from</ul>
+                
+            </div>
+        </section>
+        
+            <section>
+            <div id="contact">
+                <h4>Rides of a lifetime start here.</h4>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <label for="email">
-                <input id="email" placeholder="Enter Email" type="email"/>
+                <input id="email" placeholder="Enter Email" type="email" name="email"/>
             </label>
-
-
+            <input id="submit" type="submit" value="Submit" />
             </form>
+        </div>
         </section>
     </main>
 </body>
+<footer>
+    <hr>
+    How Fayst? SOOO Fayst!<br>789 RaceCar Dr.<br>Outta This World, USA
+    <br><a href="">howFaystSOOOfayst@email.com</a>
+</footer>
 </html>
 
 
-<!--
-Within the #header element, you can see a nav element with a corresponding id="nav-bar"
-You can see at least three clickable elements inside the nav element, each with the class nav-link
-When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page
-You can watch an embedded product video with id="video"
-Your landing page has a form element with a corresponding id="form"
-Within the form, there is an input field with id="email" where you can enter an email address
-The #email input field should have placeholder text to let users know what the field is for
-The #email input field uses HTML5 validation to confirm that the entered text is an email address
-Within the form, there is a submit input with a corresponding id="submit"
-When you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit)
-The navbar should always be at the top of the viewport
-Your product landing page should have at least one media query
-Your product landing page should utilize CSS flexbox at least once
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
-
-
-Note: Be sure to add <link rel="stylesheet" href="styles.css"> in your HTML to link your stylesheet and apply your CSS -->
