@@ -38,7 +38,7 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
-    
+    z-index: 1;
         
 }
 
@@ -75,7 +75,7 @@ p {
     
 }
 
-.requirements {
+.required {
     text-align: center;
     margin: 10px;
     border: 1px solid #000;
